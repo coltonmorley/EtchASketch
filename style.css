@@ -1,1 +1,108 @@
+html{
+    background-color: lightblue;
+}
 
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+.ui{
+    text-align: center;
+}
+
+.selectPX{
+    border: solid red 1px;
+}
+
+.etcha{
+    border: solid black 1px;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brand{
+    align-self: center;
+    color: gold;
+    font-family: 'Brush Script MT', cursive;
+    padding-top: 10px;
+    font-size: 32px;
+    background-color: red;
+}
+
+.display{
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.knobs{
+    display: flex;
+    justify-content: space-between;
+}
+.knob{
+    border: solid black 1px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: white;
+    margin: 8px;
+    color: black;
+}
+
+.pixel{
+    background-color: antiquewhite;
+    /* min-width: 5px;
+    min-height: 5px; */
+    /* border: solid lightgrey 1px;  */
+    flex: 1;
+}
+
+.row{
+    display: flex;
+    /* border: solid blue 3px; */
+    flex: 1;
+}
+
+.mark{
+    background-color: black;
+}
+
+.shake {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.description{
+    text-align: center;
+    font-size: 24px;
+}

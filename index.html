@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div class = "container">
+        <div class="description">This is my attempt at an Etch a Sketch, click below
+            enable rainbow mode or select different resolutions.  Also (unlike a traditional
+            etch a sketch) you can click to turn the marker on and off you want to cheat!
+        </div>
+        <div class="etcha"> 
+            <div class="brand">Morley's Etch a Sketch</div>
+            <div class = "display" id = "display"></div>
+            <div class="knobs"> 
+                <div class="knob"> .</div>
+                <button class = "brand" onclick="shake()">Click here to shake!</button> 
+                <div class="knob"> .</div>
+            </div>
+        </div>
+        <div class = "ui">
+            <label> Raindbow Mode</label>
+            <input type="checkbox" id="rainbow" class="rainbow"><br>
+            <br>
+            <div clas = "selectPX">
+                <button onclick="setGrid(8)">8x8</button>
+                <button onclick="setGrid(16)">16x16</button>
+                <button onclick="setGrid(32)">32x32</button>
+                <button onclick="setGrid(64)">64x64</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
