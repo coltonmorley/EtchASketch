@@ -106,3 +106,29 @@ html{
     text-align: center;
     font-size: 24px;
 }
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+
+
+.selector{
+    background-color: rgba(70, 138, 255, 1);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.selector{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    width: 84px;
+}
+
+.rainbow{
+    font-size: 18px;
+    font-weight: bolder;
+}

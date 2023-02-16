@@ -30,7 +30,7 @@ function setGrid(n){
 }
 
 function mark(){
-    if(document.querySelector('.rainbow').checked){
+    if(document.getElementById('rainbow').checked){
         var randColor = Math.floor(Math.random()*16777215).toString(16);
         randColor = "#" + randColor;
         console.log(randColor);

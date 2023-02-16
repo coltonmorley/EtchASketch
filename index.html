@@ -14,6 +14,18 @@
             enable rainbow mode or select different resolutions.  Also (unlike a traditional
             etch a sketch) you can click to turn the marker on and off you want to cheat!
         </div>
+    <div class="content"> 
+        <div class = "ui">
+            <label class="rainbow"> Raindbow Mode</label>
+            <input type="checkbox" id="rainbow" class="rainbow"><br>
+            <br>
+            <div clas = "selectPX">
+                <button class="selector" onclick="setGrid(8)">8x8</button>
+                <button class="selector" onclick="setGrid(16)">16x16</button>
+                <button class="selector" onclick="setGrid(32)">32x32</button>
+                <button class="selector" onclick="setGrid(64)">64x64</button>
+            </div>
+        </div>
         <div class="etcha"> 
             <div class="brand">Morley's Etch a Sketch</div>
             <div class = "display" id = "display"></div>
@@ -23,16 +35,6 @@
                 <div class="knob"> .</div>
             </div>
         </div>
-        <div class = "ui">
-            <label> Raindbow Mode</label>
-            <input type="checkbox" id="rainbow" class="rainbow"><br>
-            <br>
-            <div clas = "selectPX">
-                <button onclick="setGrid(8)">8x8</button>
-                <button onclick="setGrid(16)">16x16</button>
-                <button onclick="setGrid(32)">32x32</button>
-                <button onclick="setGrid(64)">64x64</button>
-            </div>
         </div>
     </div>
 </body>
